@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -7,9 +6,61 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	 <header>
+        <h1>The Shawshank Redemption</h1>
+        <p style="margin-top:0.5rem;color:var(--muted)">A fan page celebrating one of my favorite films.</p>
+    </header>
+
+    <nav aria-label="Primary navigation">
+        <span style="color:var(--muted); align-self:center; padding-left:0.5rem">Jump to:</span>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
+
+    <main>
+        <section id="summary" class="card">
+            <h2>Summary</h2>
+            <p>
+                The Shawshank Redemption follows the story of Andy Dufresne, a banker sentenced to life in Shawshank State
+                Prison for a crime he didn't commit. Over decades he forges an unlikely friendship with Red, finds ways to
+                maintain hope, and quietly engineers a plan for freedom that changes lives. It's a tale of resilience,
+                friendship, and redemption.
+            </p>
+            <img class="poster" src="shawshank-poster.jpg" alt="Shawshank Poster (fan art)"/>
+        </section>
+
+        <aside class="card">
+            <h3>Film Info</h3>
+            <p>IMDb Rating: <strong>9.3/10</strong></p>
+            <p>Release Date: <strong>September 23, 1994</strong></p>
+            <p style="margin-top:0.5rem;color:var(--muted)">This aside contains quick facts about the movie for easy reference.</p>
+        </aside>
+
+        <section id="actor" class="card">
+            <h2>Actors</h2>
+            <p style="color:var(--muted)">Key cast members and the roles they played:</p>
+            <ul>
+                <li><strong>Tim Robbins</strong> — Andy Dufresne</li>
+                <li><strong>Morgan Freeman</strong> — Ellis Boyd "Red" Redding</li>
+                <li><strong>Bob Gunton</strong> — Warden Norton</li>
+                <li><strong>William Sadler</strong> — Heywood</li>
+            </ul>
+            <p style="color:var(--muted)">Each actor brings depth to a story about hope, perseverance, and human connection.</p>
+        </section>
+
+        <section id="quote" class="card">
+            <h2>Favorite Quote</h2>
+            <blockquote>
+                "Get busy living, or get busy dying." — Andy Dufresne
+            </blockquote>
+            <p style="color:var(--muted); margin-top:0.8rem">This line captures the film's core choice about hope and action.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Produced by: &lt;Niki Marvin&gt;.</p>
+        <p style="font-size:0.85rem; color:var(--muted); margin-top:0.35rem">A small fan tribute page. All images are placeholders.</p>
+    </footer>
 
 </body>
 
